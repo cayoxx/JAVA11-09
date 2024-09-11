@@ -1,0 +1,28 @@
+package onze09;
+
+public class ObjConsulta {
+
+    public static void main(String[] args) {
+        
+        Consulta consulta1 = new Consulta();
+        Consulta consulta2 = new Consulta();
+        
+        consulta1.setData("11/09/2024");
+        consulta1.setNomePaciente("João Silva");
+        consulta1.setNomeDentista("Dr. Lucas");
+
+        consulta2.setData("12/09/2024");
+        consulta2.setNomePaciente("Maria Souza");
+        consulta2.setNomeDentista("Dra. Fernanda");
+
+        System.out.println("Consulta 1:");
+        System.out.println("Data: " + consulta1.getData());
+        System.out.println("Paciente: " + consulta1.getNomePaciente());
+        System.out.println("Dentista: " + consulta1.getNomeDentista());
+
+        System.out.println("Consulta 2:");
+        System.out.println("Data: " + consulta2.getData());
+        System.out.println("Paciente: " + consulta2.getNomePaciente());
+        System.out.println("Dentista: " + consulta2.getNomeDentista());
+    }
+}
